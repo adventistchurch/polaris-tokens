@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- ## [Unreleased] -->
 
+## [1.3.0] - 2018-06-13
+
+* Updated color names in InVision DSM
+
 ## [1.2.0] - 2018-05-30
 
 * `ase` and `clr` palettes: removed the `color-` prefix from color names
