@@ -1,5 +1,8 @@
 {
   "aliases": {
+    "color-yellow-base": {
+      "value": "#edc200"
+    },
     "color-sky-light": {
       "value": "#f4f6f8"
     },
@@ -12,14 +15,20 @@
     "color-orange-light": {
       "value": "#ffc48b"
     },
+    "color-indigo-base": {
+      "value": "#5c6ac4"
+    },
     "color-orange-text": {
       "value": "#594430"
     },
     "color-green-light": {
       "value": "#bbe5b3"
     },
-    "color-blue": {
-      "value": "#007ace"
+    "color-ink-base": {
+      "value": "#212b36"
+    },
+    "color-green-base": {
+      "value": "#50b83c"
     },
     "color-indigo-light": {
       "value": "#b3bcf5"
@@ -30,17 +39,17 @@
     "color-ink-light": {
       "value": "#454f5b"
     },
-    "color-purple": {
-      "value": "#9c6ade"
-    },
-    "color-teal": {
-      "value": "#47c1bf"
+    "color-orange-base": {
+      "value": "#f49342"
     },
     "color-yellow-light": {
       "value": "#ffea8a"
     },
     "color-indigo-dark": {
       "value": "#202e78"
+    },
+    "color-sky-base": {
+      "value": "#dfe3e8"
     },
     "color-green-dark": {
       "value": "#108043"
@@ -105,26 +114,20 @@
     "color-green-darker": {
       "value": "#173630"
     },
-    "color-sky": {
-      "value": "#dfe3e8"
+    "color-teal-base": {
+      "value": "#47c1bf"
     },
     "color-orange-darker": {
       "value": "#4a1504"
     },
-    "color-orange": {
-      "value": "#f49342"
+    "color-purple-base": {
+      "value": "#9c6ade"
     },
-    "color-green": {
-      "value": "#50b83c"
+    "color-blue-base": {
+      "value": "#007ace"
     },
     "color-blue-lighter": {
       "value": "#ebf4fa"
-    },
-    "color-indigo": {
-      "value": "#5c6ac4"
-    },
-    "color-ink": {
-      "value": "#212b36"
     },
     "color-purple-lighter": {
       "value": "#f5f0fc"
@@ -140,9 +143,6 @@
     },
     "color-purple-dark": {
       "value": "#50248f"
-    },
-    "color-yellow": {
-      "value": "#edc200"
     },
     "color-indigo-text": {
       "value": "#3e4155"
@@ -173,12 +173,12 @@
       "value": "rgb(80, 36, 143)",
       "originalValue": "{!color-purple-dark}"
     },
-    "color-purple": {
+    "color-purple-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-purple",
+      "name": "color-purple-base",
       "value": "rgb(156, 106, 222)",
-      "originalValue": "{!color-purple}"
+      "originalValue": "{!color-purple-base}"
     },
     "color-purple-light": {
       "type": "color",
@@ -215,12 +215,12 @@
       "value": "rgb(32, 46, 120)",
       "originalValue": "{!color-indigo-dark}"
     },
-    "color-indigo": {
+    "color-indigo-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-indigo",
+      "name": "color-indigo-base",
       "value": "rgb(92, 106, 196)",
-      "originalValue": "{!color-indigo}"
+      "originalValue": "{!color-indigo-base}"
     },
     "color-indigo-light": {
       "type": "color",
@@ -257,12 +257,12 @@
       "value": "rgb(8, 78, 138)",
       "originalValue": "{!color-blue-dark}"
     },
-    "color-blue": {
+    "color-blue-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-blue",
+      "name": "color-blue-base",
       "value": "rgb(0, 122, 206)",
-      "originalValue": "{!color-blue}"
+      "originalValue": "{!color-blue-base}"
     },
     "color-blue-light": {
       "type": "color",
@@ -299,12 +299,12 @@
       "value": "rgb(0, 132, 142)",
       "originalValue": "{!color-teal-dark}"
     },
-    "color-teal": {
+    "color-teal-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-teal",
+      "name": "color-teal-base",
       "value": "rgb(71, 193, 191)",
-      "originalValue": "{!color-teal}"
+      "originalValue": "{!color-teal-base}"
     },
     "color-teal-light": {
       "type": "color",
@@ -341,12 +341,12 @@
       "value": "rgb(16, 128, 67)",
       "originalValue": "{!color-green-dark}"
     },
-    "color-green": {
+    "color-green-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-green",
+      "name": "color-green-base",
       "value": "rgb(80, 184, 60)",
-      "originalValue": "{!color-green}"
+      "originalValue": "{!color-green-base}"
     },
     "color-green-light": {
       "type": "color",
@@ -383,12 +383,12 @@
       "value": "rgb(156, 111, 25)",
       "originalValue": "{!color-yellow-dark}"
     },
-    "color-yellow": {
+    "color-yellow-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-yellow",
+      "name": "color-yellow-base",
       "value": "rgb(237, 194, 0)",
-      "originalValue": "{!color-yellow}"
+      "originalValue": "{!color-yellow-base}"
     },
     "color-yellow-light": {
       "type": "color",
@@ -425,12 +425,12 @@
       "value": "rgb(192, 87, 23)",
       "originalValue": "{!color-orange-dark}"
     },
-    "color-orange": {
+    "color-orange-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-orange",
+      "name": "color-orange-base",
       "value": "rgb(244, 147, 66)",
-      "originalValue": "{!color-orange}"
+      "originalValue": "{!color-orange-base}"
     },
     "color-orange-light": {
       "type": "color",
@@ -446,12 +446,12 @@
       "value": "rgb(252, 235, 219)",
       "originalValue": "{!color-orange-lighter}"
     },
-    "color-ink": {
+    "color-ink-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-ink",
+      "name": "color-ink-base",
       "value": "rgb(33, 43, 54)",
-      "originalValue": "{!color-ink}"
+      "originalValue": "{!color-ink-base}"
     },
     "color-ink-light": {
       "type": "color",
@@ -481,12 +481,12 @@
       "value": "rgb(196, 205, 213)",
       "originalValue": "{!color-sky-dark}"
     },
-    "color-sky": {
+    "color-sky-base": {
       "type": "color",
       "category": "background-color",
-      "name": "color-sky",
+      "name": "color-sky-base",
       "value": "rgb(223, 227, 232)",
-      "originalValue": "{!color-sky}"
+      "originalValue": "{!color-sky-base}"
     },
     "color-sky-light": {
       "type": "color",

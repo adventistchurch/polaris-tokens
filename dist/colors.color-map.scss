@@ -4,7 +4,7 @@ $polaris-colors: (
       'text': rgb(80, 73, 90),
       'darker': rgb(35, 0, 81),
       'dark': rgb(80, 36, 143),
-      'purple': rgb(156, 106, 222),
+      'base': rgb(156, 106, 222),
       'light': rgb(227, 208, 255),
       'lighter': rgb(245, 240, 252)
     ),
@@ -13,7 +13,7 @@ $polaris-colors: (
       'text': rgb(62, 65, 85),
       'darker': rgb(0, 6, 57),
       'dark': rgb(32, 46, 120),
-      'indigo': rgb(92, 106, 196),
+      'base': rgb(92, 106, 196),
       'light': rgb(179, 188, 245),
       'lighter': rgb(243, 244, 250)
     ),
@@ -22,7 +22,7 @@ $polaris-colors: (
       'text': rgb(62, 78, 87),
       'darker': rgb(0, 21, 42),
       'dark': rgb(8, 78, 138),
-      'blue': rgb(0, 122, 206),
+      'base': rgb(0, 122, 206),
       'light': rgb(180, 224, 250),
       'lighter': rgb(235, 244, 250)
     ),
@@ -31,7 +31,7 @@ $polaris-colors: (
       'text': rgb(64, 83, 82),
       'darker': rgb(0, 49, 54),
       'dark': rgb(0, 132, 142),
-      'teal': rgb(71, 193, 191),
+      'base': rgb(71, 193, 191),
       'light': rgb(182, 236, 235),
       'lighter': rgb(224, 245, 244)
     ),
@@ -40,7 +40,7 @@ $polaris-colors: (
       'text': rgb(65, 79, 62),
       'darker': rgb(23, 54, 48),
       'dark': rgb(16, 128, 67),
-      'green': rgb(80, 184, 60),
+      'base': rgb(80, 184, 60),
       'light': rgb(187, 229, 179),
       'lighter': rgb(227, 241, 223)
     ),
@@ -49,7 +49,7 @@ $polaris-colors: (
       'text': rgb(89, 81, 48),
       'darker': rgb(87, 59, 0),
       'dark': rgb(156, 111, 25),
-      'yellow': rgb(237, 194, 0),
+      'base': rgb(237, 194, 0),
       'light': rgb(255, 234, 138),
       'lighter': rgb(252, 240, 205)
     ),
@@ -58,13 +58,13 @@ $polaris-colors: (
       'text': rgb(89, 68, 48),
       'darker': rgb(74, 21, 4),
       'dark': rgb(192, 87, 23),
-      'orange': rgb(244, 147, 66),
+      'base': rgb(244, 147, 66),
       'light': rgb(255, 196, 139),
       'lighter': rgb(252, 235, 219)
     ),
   'ink':
     (
-      'ink': rgb(33, 43, 54),
+      'base': rgb(33, 43, 54),
       'light': rgb(69, 79, 91),
       'lighter': rgb(99, 115, 129),
       'lightest': rgb(145, 158, 171)
@@ -72,7 +72,7 @@ $polaris-colors: (
   'sky':
     (
       'dark': rgb(196, 205, 213),
-      'sky': rgb(223, 227, 232),
+      'base': rgb(223, 227, 232),
       'light': rgb(244, 246, 248),
       'lighter': rgb(249, 250, 251)
     )
